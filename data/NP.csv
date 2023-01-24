@@ -1,0 +1,717 @@
+noun_phrase,frequency,Core concept
+ai,449,AnythingAI
+regulation,237,Regulation
+article,114,Law text
+eu,97,Regulator
+european parliament,54,Regulator
+natural persons,51,Organization or Person
+member,48,EU Country
+directive,43,Regulation
+fundamental rights,34,Right
+law enforcement,24,Regulator
+personal data,23,Data
+national competent authorities,21,Regulator
+union law,18,Law text
+biometric data,18,Data
+high-risk ai,17,High risk AI System
+technical documentation,16,Requirement
+council,15,Regulator
+remote biometric identification systems,15,AI System Approach
+artificial intelligence,14,AnythingAI
+such systems,14,AI System
+competent authorities,13,Regulator
+national law,13,Law text
+title,13,AI Domain
+legal person,12,Organization or Person
+market surveillance,12,Regulation
+conformity assessment,11,Requirement
+provider,10,Provider
+internal market,9,Market
+criminal offences,9,System risk
+public authorities,9,Regulator
+union harmonisation legislation,9,Law text
+financial services legislation,9,Law text
+european union,8,Regulator
+free movement,8,Right
+framework,8,Law text
+decision,8,AI System Approach
+general purpose,8,AI Domain
+high risk,8,High risk AI System
+human oversight,8,Requirement
+quality management system,8,AI System Quality measure
+remote biometric identification,7,AI System Approach
+input data,7,Data
+natural person,7,Organization or Person
+safety components,7,Requirement
+regulation,7,Regulation
+risk management system,7,AI Domain
+national competent authority,7,Regulator
+national security,6,Regulator
+medical devices,6,AI Domain
+market surveillance authorities,6,Regulator
+data protection,5,Right
+public authority,5,Regulator
+such data,5,Data
+national security purposes,5,AI Domain
+real world conditions,5,Poisoning risk
+law enforcement authorities,5,Regulator
+appropriate safeguards,5,Requirement
+union market,5,Market
+directive,5,Law
+critical infrastructure,5,System risk
+training,5,AI System Approach
+product manufacturer,5,Provider
+relevant union,5,Regulator
+internal governance,5,Requirement
+credit institutions,5,User
+corrective actions,5,AI System Development Process
+specific requirements,4,Requirement
+knowledge base,4,Data
+union institutions,4,Regulator
+relevant obligations,4,Law
+border control,4,AI Domain
+relevant union harmonisation legislation,4,Regulation
+own use,4,AI Domain
+functional setting,4,AnythingAI
+experimentation facilities,4,AI System Quality measure
+user,4,User
+necessary information,4,Requirement
+data subjects,4,Data
+public security,4,AI Domain
+testing,4,AI System Approach
+financial institutions subject,4,User
+means data,4,Data
+obligation,4,Requirement
+article,3,Law text
+legal framework,3,Law text
+artificial,3,AnythingAI
+specific rules,3,Requirement
+such harm,3,Risk
+application problem,3,System risk
+international organisations,3,Organization or Person
+international agreements,3,Law text
+judicial cooperation,3,Requirement
+ensure compliance,3,Requirement
+human dignity,3,Right
+asylum authorities,3,Regulator
+law enforcement authority,3,Regulator
+ireland,3,EU Country
+fair trial,3,Right
+common rules,3,Regulation
+safety component,3,Requirement
+third-party conformity assessment,3,Requirement
+such information,3,Data
+annex,3,Data
+historical patterns,3,Data
+contractual relationships,3,Data
+vulnerable position,3,System risk
+similar tools,3,Products
+border control management,3,Regulator
+possible risks,3,Risk
+technical solutions,3,AI System Development Process
+common specifications,3,AI System properties
+machinery regulation,3,Regulation
+prospective providers,3,Provider
+relevant authorities,3,Regulator
+technical specifications,3,AI System Development Process
+legal acts,3,Law text
+relevant conformity assessment procedure,3,Requirement
+text,2,Data
+national rules,2,Law text
+public services,2,Organization or Person
+european council,2,Regulator
+consumer protection,2,Right
+product safety,2,Requirement
+such union law,2,Law text
+defective products,2,System risk
+machine and/or,2,AI System
+machine learning and/or logic-,2,AI System Approach
+system interacts,2,AI System properties
+machine,2,AI System
+optimisation methods,2,AI System Development Process
+logic,2,AI System Development Process
+technological developments,2,AI System Development Process
+data protection regulation,2,Regulation
+biometric data,2,Data
+reference data repository,2,Data
+video footage,2,Data
+effective protection,2,Right
+intermediary service providers,2,Provider
+digital,2,AnythingAI
+respective high-risk,2,High risk AI System
+relevant operators,2,Provider
+transparency obligations,2,Requirement
+ai-enabled,2,Products
+free choices,2,Right
+private life,2,Right
+custodial sentence,2,Law
+detention order,2,Law
+reference database,2,Data
+judicial authority,2,Regulator
+independent administrative authority,2,Regulator
+protocol,2,AI System Development Process
+denmark,2,EU Country
+certain mandatory requirements,2,Requirement
+safety risks,2,Risk
+vulnerabilities,2,System risk
+conformity assessment procedure,2,Requirement
+significant risk,2,Risk
+such output,2,Data
+physical integrity,2,System risk
+ethnic origins,2,Data Risk
+sexual orientation,2,Data Risk
+recommendation,2,AI Domain
+high quality data,2,Data
+international protection,2,Right
+applicable requirements,2,Requirement
+continuous iterative process,2,AI System Development Process
+entire lifecycle,2,AI System Development Process
+suitable risk management measures,2,Requirement
+appropriate statistical properties,2,AI System properties
+appropriate risk management measures,2,Requirement
+fail-safe plans,2,Requirement
+training data,2,Data
+common framework,2,Regulation
+new high-risk,2,Risk
+sectorial legislation,2,Regulation
+digital products,2,Products
+user obligations,2,User
+personal non-professional activity,2,User
+data controllers,2,Data
+certain requirements,2,Requirement
+medium enterprises,2,Provider
+state law,2,Law text
+sme,2,Organization or Person
+ai-on,2,Products
+development process,2,AI System Development Process
+market,2,Market
+national public authorities,2,Regulator
+union legislation,2,Regulation
+financial institutions,2,Organization or Person
+market surveillance activities,2,AI Domain
+national authorities,2,Regulator
+european central bank,2,Organization or Person
+supply chain,2,Market
+national authority,2,EU Country
+conformity assessment body,2,Organization or Person
+initial conformity assessment,2,Requirement
+market surveillance authority,2,Organization or Person
+administrative authority,2,Regulator
+effective measures,2,Requirement
+chapter,2,Law text
+risk management measures,2,Requirement
+relevant sectorial union law,2,Law
+human oversight measures,2,Requirement
+trade name,2,Market
+trade mark,2,Market
+registration obligations,2,Requirement
+distributor,2,Provider
+regulation of the european parliament and of the council laying down harmonised rules on artificial intelligence,1,Law text
+artificial intelligence act,1,Law text
+and amending certain union legislative acts,1,Law text
+the european parliament and the council of the european union,1,Regulator
+european commission,1,Regulator
+legislative act,1,Law text
+national parliaments,1,Regulator
+committee,1,Regulator
+regions,1,Organization or Person
+bank,1,User
+ordinary legislative procedure,1,Requirement
+ecb,1,Regulator
+union values,1,Regulator
+ai-based,1,AnythingAI
+intelligence systems,1,AI System
+cross border,1,Market
+fundamental rights obligations,1,Right
+uniform obligations,1,Requirement
+uniform protection,1,Right
+digital solutions,1,Services
+competitive advantages,1,Market
+generate risks,1,Risk
+high-level expert,1,Organization or Person
+guideline,1,Regulation
+trustworthy artificial intelligence,1,AnythingAI
+global leader,1,Organization or Person
+ethical artificial intelligence,1,AI System properties
+ethical principles,1,Requirement
+parliament,1,Organization or Person
+euco,1,Regulator
+european parliament resolution,1,Regulation
+ethical aspects,1,Requirement
+possible damages pursuant,1,Organization or Person
+administrative provisions,1,Requirement
+various operators,1,Provider
+national laws,1,Law text
+national labour law,1,Law text
+rights,1,Right
+future technological developments,1,AI System Development Process
+simpler software systems,1,No-risk AI System
+regulation ai,1,Regulation
+system functions,1,AI System Development Process
+human involvement,1,AI System Development Process
+learning approaches focus,1,AI System Approach
+step-by-step instructions,1,AI System Development Process
+learning,1,AI System Development Process
+machine learning,1,AI System Development Process
+learning approaches,1,AI System Development Process
+reinforcement learning,1,AI System Development Process
+deep learning,1,AI System Development Process
+neural networks,1,AI System Development Process
+statistical techniques,1,AI System Development Process
+instance logistic regression,1,AI System Development Process
+bayesian,1,AI System Development Process
+approaches focus,1,AI System Development Process
+logical reasoning capabilities,1,AI System Development Process
+inference engine,1,AI System Development Process
+human experts,1,Organization or Person
+knowledge graphs,1,Data
+knowledge bases,1,Data
+deductive engines,1,AI System Development Process
+expert systems,1,AI System Approach
+ensure uniform conditions,1,Requirement
+regards machine learning approaches,1,AI System Development Process
+enforcement directive,1,Regulation
+particular technology,1,AI System properties
+multiple persons,1,Organization or Person
+specific natural person,1,Organization or Person
+large number,1,Data
+real-time,1,AI System properties
+professional activities,1,AI Domain
+security restrictions,1,Requirement
+public safety,1,Requirement
+clear manifestation,1,Requirement
+relevant authority,1,Requirement
+factual possibility,1,Requirement
+factory premises,1,Organization or Person
+relevant employees,1,Organization or Person
+service providers,1,Provider
+border control areas,1,Regulator
+non-discriminatory manner,1,Requirement
+digital nature,1,AI System properties
+certain services,1,Services
+process data,1,Data
+foreign partners,1,Organization or Person
+such agreements,1,Law
+europol,1,Regulator
+recipient member,1,EU Country
+private entity,1,Organization or Person
+common union defence policy,1,Regulation
+public international law,1,Law text
+appropriate legal framework,1,Law
+lethal force,1,Risk
+defence activities,1,AI Domain
+national security activities,1,AI Domain
+specific national rules,1,Law text
+humanitarian purposes,1,AI Domain
+public security purposes,1,AI Domain
+civilian purposes,1,AI Domain
+military activities,1,AI Domain
+law enforcement purposes,1,AI Domain
+council,1,Organization or Person
+respect freedom,1,AI System properties
+regards product,1,Products
+research activity,1,AI System Development Process
+such research,1,AI System Development Process
+image/speech recognition,1,AI System Approach
+specific characteristics,1,AI System properties
+regards health,1,AI Domain
+common normative standards,1,Requirement
+international trade commitments,1,Regulation
+certain artificial intelligence practices,1,AI System Development Process
+powerful tools,1,AnythingAI
+manipulative techniques,1,System risk
+human behaviour,1,Risk
+psychological harms,1,Risk
+subliminal techniques,1,AI System properties
+autonomy,1,AI System properties
+virtual reality,1,AI Domain
+specific group,1,Organization or Person
+extreme poverty,1,Risk
+religious minorities,1,Organization or Person
+phycological harm,1,Risk
+distortion results,1,Risk
+factors external,1,Data Risk
+psychological harm,1,Risk
+such harm results,1,Risk
+unfair commercial practices,1,System risk
+financial harms,1,System risk
+exploitative practices,1,System risk
+mental disease,1,Risk
+physical rehabilitation,1,Risk
+applicable medical standards,1,Requirement
+applicable law,1,Law
+harmful manipulative,1,Risk
+private actors,1,Organization or Person
+discriminatory outcomes,1,Data Risk
+certain groups,1,Organization or Person
+multiple contexts,1,Data
+social score,1,AI Domain
+unfavourable treatment,1,Data Risk
+social contexts,1,Data
+lawful evaluation practices,1,AI System Quality measure
+specific purpose,1,AI Domain
+constant surveillance,1,AI Domain
+law enforcement activities,1,AI Domain
+potential victims,1,Affected entities
+certain threats,1,Risk
+physical safety,1,System risk
+terrorist attack,1,Risk
+maximum period,1,AI System properties
+such threshold,1,AI System properties
+national law contributes,1,Law
+different criminal offences,1,Risk
+possible negative consequences,1,High risk AI System
+identity checks,1,AI Domain
+information systems,1,AI System
+identity check,1,AI Domain
+medical condition,1,Data
+european arrest warrant,1,Regulation
+specific authorisation,1,Requirement
+exhaustive framework,1,AI System Approach
+lex specialis,1,Organization or Person
+specific framework,1,Regulation
+biometric identification,1,AI Domain
+articles applies,1,Regulation
+kingdom,1,Organization or Person
+criminal matters,1,Risk
+police cooperation,1,Regulator
+unacceptable risks,1,Risk
+significant harmful impact,1,Risk
+potential restriction,1,Regulation
+compliant products,1,Products
+autonomous robots,1,High risk AI System
+complex environments,1,Data Risk
+health sector,1,AI Domain
+sophisticated diagnostics systems,1,High risk AI System
+specific rights,1,Right
+child,1,Organization or Person
+digital environment,1,AI System properties
+such protection,1,Right
+fundamental right,1,Right
+environmental protection,1,Right
+union policies,1,Regulation
+regulatory specificities,1,Regulation
+enforcement mechanisms,1,Regulation
+mandatory requirements,1,Requirement
+civil aviation security,1,AI Domain
+marine equipment,1,AI Domain
+rail system,1,AI Domain
+civil aviation,1,AI Domain
+aviation safety,1,AI Domain
+type-approval requirements,1,Requirement
+general safety,1,Requirement
+vehicle occupants,1,Organization or Person
+vulnerable road users,1,Organization or Person
+certain union harmonisation legislation,1,Regulation
+third-party conformity assessment body pursuant,1,Organization or Person
+such products,1,Products
+protective systems,1,Low risk AI System
+high-risk pursuant,1,User
+high-risk products,1,Products
+possible harm,1,Risk
+future amendments,1,Law
+high-risk scenarios,1,High risk AI System
+discriminatory effects,1,Risk
+critical digital infrastructure,1,System risk
+critical entities,1,Affected entities
+large scale,1,AI System properties
+economic activities,1,Market
+safety,1,Right
+critical digital infrastrucure,1,AI System
+cybersecurity purposes,1,AI Domain
+vocational training,1,AI System Development Process
+vocational training institutions,1,Organization or Person
+learning outcomes,1,Data
+workers management,1,AI Domain
+task allocation,1,AI Domain
+programme,1,AI System Development Process
+such persons,1,Organization or Person
+credit score,1,AI Domain
+essential services,1,Services
+telecommunication services,1,Services
+discriminatory impacts,1,Data Risk
+available alternatives,1,Market
+creditworthiness assessment,1,AI Domain
+small entreprises,1,Organization or Person
+responsible authorities,1,Regulator
+social protection,1,Right
+public administration,1,Organization or Person
+response services,1,Services
+critical situations,1,Data Risk
+risk assessment,1,AI System Quality measure
+health insurance,1,AI Domain
+serious consequences,1,Risk
+small enterprises,1,Organization or Person
+own insurance products,1,Organization or Person
+liberty,1,Right
+adequate requirements,1,Requirement
+unjust manner,1,System risk
+law enforcement context,1,Law
+public trust,1,Requirement
+ensure accountability,1,Requirement
+individual risk assessments,1,AI Domain
+criminal proceedings,1,Risk
+potential criminal offence,1,Risk
+personality traits,1,Data
+past criminal behaviour,1,Risk
+customs authorities,1,Regulator
+information pursuant,1,Organization or Person
+union anti-money,1,Law
+non-discriminatory nature,1,AI System properties
+certain risks,1,Risk
+relevant procedural requirements,1,Requirement
+relevant legislation,1,Law
+individual freedoms,1,Right
+potential biases,1,Risk
+judicial authorities,1,High risk AI System
+administrative activities,1,High risk AI System
+administrative tasks,1,AI Domain
+national law compatible,1,Regulation
+applicable acts,1,Regulation
+secondary union law,1,Law
+legal ground,1,Law
+provider identifies,1,Provider
+requirement,1,Requirement
+high data quality,1,Data
+high quality training,1,AI System Development Process
+technical feasibility,1,AI System Development Process
+possible shortcomings,1,System risk
+data minimisation,1,AI System Development Process
+certain actors,1,Organization or Person
+relevant entities,1,Affected entities
+quality datasets,1,Data
+respective fields,1,AI Domain
+european common data spaces,1,Data
+european health data space,1,Data
+health data,1,Data
+artificial intelligence algorithms,1,AI System
+trustworthy manner,1,Requirement
+high-quality data,1,Data
+relevant requirements,1,Requirement
+general characteristics,1,AI System properties
+validation processes,1,AI System Quality measure
+relevant risk management system,1,AI System Quality measure
+instance output data,1,Data
+systems incomprehensible,1,System risk
+system output,1,Data
+appropriate human oversight measures,1,AI System Quality measure
+such measures,1,AI System Quality measure
+human operator,1,Organization or Person
+certain biometric identification systems,1,AI System
+human oversight requirement,1,Requirement
+different persons,1,Affected entities
+accuracy metrics,1,AI System Quality measure
+technical robustness,1,Requirement
+key requirement,1,Requirement
+unexpected situations,1,Data Risk
+certain anomalies,1,Data Risk
+safety impacts,1,AI System Quality measure
+erroneous decisions,1,System risk
+cybersecurity,1,System risk
+crucial role,1,High risk AI System
+security properties,1,AI System properties
+cyberattacks,1,Cyber attack
+adversarial attacks,1,System risk
+suitable measures,1,AI System Quality measure
+specific obligations,1,Requirement
+sound quality management system,1,Requirement
+person modifies,1,Organization or Person
+final product complies,1,AI System properties
+contact person,1,Organization or Person
+defective high-risk,1,High risk AI System
+particular use high-risk,1,High risk AI System
+individual decision-making,1,AI Domain
+harmonised,1,AI System properties
+effective implementation,1,AI System Quality measure
+standardisation,1,AI System properties
+exceptional fall,1,Risk
+obligation,1,Requirement
+standardisation process,1,AI System Development Process
+technical complexity,1,AI System properties
+european standardisation,1,Requirement
+relevant requirement,1,Requirement
+cybersecurity scheme,1,Cyber attack
+possible duplication,1,Data Risk
+specific logic,1,AI System Development Process
+safety functions,1,Requirement
+safe integration,1,No-risk AI System
+risk management logic,1,Regulation
+medical device framework,1,High risk AI System
+initial phase,1,AI System Development Process
+general rule,1,Rules
+own responsibility,1,AI System properties
+electronic notification tool,1,Products
+software architecture,1,AI System
+new conformity assessment,1,Requirement
+rapid availability,1,AI System properties
+innovative technologies,1,AI System properties
+commercial property,1,Data
+artificial intelligence field,1,AnythingAI
+such database,1,Data
+full functionality,1,AI System properties
+generate content,1,Data
+specific risks,1,Risk
+specific transparency obligations,1,Requirement
+such obligation,1,Requirement
+vulnerable groups,1,Organization or Person
+hair colour,1,Data
+eye colour,1,Data
+ethnic origin,1,Data
+personal preferences,1,Data
+political orientation,1,Data
+artificial intelligence output,1,AnythingAI
+artificial origin,1,AnythingAI
+regulatory oversight,1,Regulator
+risk mitigation measures,1,Requirement
+artificial intelligence regulatory sandboxes,1,AI System properties
+strict regulatory oversight,1,Regulator
+legal uncertainty,1,Risk
+regulatory learning,1,Regulator
+new conformity assessment procedure,1,Requirement
+european standardisation organisations,1,Organization or Person
+experimentation labs,1,Organization or Person
+relevant stakeholder,1,Organization or Person
+civil society organisations,1,Organization or Person
+relevant competent authorities,1,Organization or Person
+sufficient guarantees,1,Requirement
+such guarantees,1,Requirement
+consent,1,Requirement
+relevant data protection law,1,Law
+translation,1,Low risk AI System
+mandatory documentation,1,Requirement
+relevant providers,1,Provider
+cross-border users,1,Affected entities
+ensure proportionality,1,Requirement
+costly obligations,1,Requirement
+expert laboratories,1,Organization or Person
+reference laboratories,1,Organization or Person
+medical devices pursuant,1,User
+relevant stakeholders,1,Organization or Person
+such representatives,1,Organization or Person
+public entities,1,Organization or Person
+administrative cooperation group,1,Organization or Person
+market evaluations,1,Market
+temporary sub-groups,1,Organization or Person
+specific issues,1,Risk
+experts groups,1,Organization or Person
+adequate enforcement,1,Regulation
+relevant experts,1,Organization or Person
+public entity,1,Organization or Person
+serious incidents,1,Risk
+surveillance authorities,1,Regulator
+enforcement powers,1,Regulator
+regulation,1,Regulation
+competent market surveillance authority,1,Regulator
+surveillance activities,1,AI Domain
+data protection authorities,1,Regulator
+transparency requirements,1,Requirement
+financial services,1,AI Domain
+risk management rules,1,Rules
+relevant rules,1,Rules
+market surveillance tasks,1,Market
+ex post market surveillance activities,1,Market
+supervisory mechanisms,1,AI System Quality measure
+procedural obligations,1,Requirement
+prudential supervision,1,Requirement
+investment firms,1,Organization or Person
+insurance intermediaries,1,Organization or Person
+ensure consistency,1,Requirement
+equal treatment,1,Right
+financial sector,1,Market
+additional requirements,1,Requirement
+environmental sustainability,1,Requirement
+development teams,1,Provider
+sectorial nature,1,AI Domain
+data access infrastructure,1,AI System
+safety net,1,Requirement
+ensure trustful,1,Requirement
+general product safety,1,Requirement
+information society services,1,Services
+particular electronic commerce,1,Market
+electronic commerce,1,Market
+artificial intelligence system,1,AnythingAI
+open source software,1,AI System properties
+speech recognition,1,AI Domain
+video generation,1,AI Domain
+pattern detection,1,AI Domain
+commercial activity,1,Market
+safety function,1,Requirement
+necessary procedures,1,Requirement
+conformity assessment bodies,1,Organization or Person
+performs third-party conformity assessment activities,1,AI System Quality measure
+legal act,1,Law text
+measures pursuant,1,User
+european standard,1,Requirement
+learnable parameters,1,AI System properties
+validation data,1,Data
+non-learnable parameters,1,AI System properties
+learning process,1,AI System Development Process
+validation dataset,1,Data
+separate dataset,1,Data
+independent evaluation,1,Requirement
+specific technical processing,1,AI System Development Process
+facial images,1,Data
+dactyloscopic data,1,Data
+emotion recognition system,1,AI Domain
+psychological states,1,Data
+biometric categorisation system,1,High risk AI System
+natural persons regardless,1,Organization or Person
+public authority competent,1,Regulator
+public powers,1,Regulator
+proportionate safeguards,1,Requirement
+significant risks,1,High risk AI System
+requirements for high-risk ai systems article,1,Requirement
+risk,1,Risk
+foreseeable risks,1,Risk
+residual risk,1,Risk
+overall residual risk,1,Risk
+control measures,1,AI System Quality measure
+probabilistic thresholds,1,AI System properties
+data,1,Data
+data governance,1,Data
+quality criteria,1,AI System Quality measure
+relevant design choices,1,AI System Development Process
+data collection processes,1,AI System Development Process
+relevant data preparation processing operations,1,AI System Development Process
+possible biases,1,Data Risk
+possible data gaps,1,Data Risk
+individual data,1,Data
+up-to date,1,AI System properties
+competent authority,1,Regulator
+transparency,1,Requirement
+specific persons,1,Organization or Person
+care measures,1,AI System Quality measure
+such risks persist,1,Risk
+automation bias,1,Data Risk
+output,1,Data
+interpretation tools,1,AI Domain
+separate verification,1,Requirement
+national law considers,1,Regulation
+accuracy,1,AI System Quality measure
+relevant accuracy metrics,1,AI System Quality measure
+regards errors,1,AI System Quality measure
+technical redundancy solutions,1,Requirement
+system vulnerabilities,1,System risk
+specific vulnerabilities,1,Risk
+adversarial examples,1,Risk
+model flaws,1,High risk AI System
+quality,1,AI System Quality measure
+ensures compliance,1,Requirement
+regulatory compliance,1,Requirement
+design control,1,AI System Quality measure
+design verification,1,AI System Quality measure
+quality control,1,AI System Quality measure
+quality assurance,1,AI System Quality measure
+data management,1,Data
+data collection,1,Data
+data analysis,1,Data
+data storage,1,Data
+data filtration,1,Data
+data aggregation,1,Data
+data retention,1,Data
+serious incident,1,Risk
+organisation,1,Organization or Person
+conformity,1,Requirement
+financial service legislation,1,Regulation
+authority access,1,Requirement
+union market providers,1,Provider
