@@ -10,7 +10,7 @@ def main():
         corpus parsing + creation of frequent terms file above given minimum threshold
     """
     # inputs
-    min_freq = 20#minimum frequent threshold for creating the file of frequent terms
+    min_freq = 2#minimum frequent threshold for creating the file of frequent terms
     corpus_dir = r".\Corpus"  #directory for corpus documents
     output_dir = r".\OutputDir" # result file output directory
     output_file = output_dir + r"\processedTestCorpus.txt" # name of the output file (the processed corpus)
