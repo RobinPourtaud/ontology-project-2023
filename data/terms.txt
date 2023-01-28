@@ -1,0 +1,268 @@
+purpose
+regulation
+internal market
+development
+marketing
+use
+artificial intelligence
+conformity
+number
+high level
+protection
+health
+safety
+fundamental rights
+free movement
+member states
+ai systems
+union
+compliance
+legal certainty
+operators
+services
+rights
+persons
+article
+european union
+extent
+individuals
+regard
+processing
+personal data
+publicly accessible spaces
+law enforcement
+tfeu
+light
+example
+training
+same time
+circumstances
+risks
+harm
+union law
+objective
+placing
+market
+service
+certain ai systems
+systems
+principle
+rules
+eu
+p.
+commission
+framework
+line
+prejudice
+product
+regulations
+obligations
+respect
+transparency
+technical documentation
+effect
+scope
+age
+account
+notion
+ai system
+capabilities
+purposes
+ability
+basis
+way
+content
+decisions
+environment
+system
+natural persons
+autonomy
+data
+output
+input data
+tasks
+instance
+order
+uniform conditions
+implementation
+powers
+user
+natural or legal person
+public authority
+authority
+type
+biometric data
+european parliament
+(eu
+council
+oj l
+union institutions
+bodies
+offices
+agencies
+(ec
+decision
+directive
+competent authorities
+prevention
+investigation
+detection
+prosecution
+criminal offences
+identification
+comparison
+processes
+behaviour
+person
+natural person
+access
+exclusion
+case
+question
+place
+means
+title
+national law
+freedoms
+providers
+users
+relation
+high-risk
+information
+public authorities
+requirements
+provider
+entity
+activities
+teu
+chapter
+context
+accordance
+cases
+provisions
+freedom
+obligation
+application
+testing
+real world conditions
+general purpose
+high-risk ai systems
+components
+high risk ai systems
+addition
+field
+charter
+right
+-
+discrimination
+meaning
+groups
+time
+control
+legislation
+law
+remote biometric identification
+impact
+situations
+life
+member state
+real-time’ remote biometric identification systems
+scale
+border control
+conditions
+law enforcement authorities
+request
+authorisation
+view
+appropriate safeguards
+objectives
+requirement
+) 2016/679
+point
+union market
+products
+union harmonisation legislation
+adverse impact
+disabilities
+provision
+safety components
+acts
+authorities
+medical devices
+third-party conformity assessment
+intended purpose
+high risk
+annex iii
+management
+human oversight
+operation
+critical infrastructure
+risk
+property
+characteristics
+monitoring
+evaluation
+performance
+benefits
+accuracy
+robustness
+course
+asylum
+errors
+risk management system
+high-risk ai system
+art
+cybersecurity
+training, validation and testing data sets
+elements
+date
+logs
+period
+instructions
+a way
+measures
+action
+level
+market surveillance
+distributor
+importer
+quality management system
+trademark
+paragraph
+enforcement
+authorised representative
+design
+conformity assessment
+notified bodies
+national competent authorities
+substantial modification
+aspects
+ai regulatory sandbox
+supervision
+board
+market surveillance authorities
+european data protection supervisor
+mandate
+documentation
+internal governance
+union financial services legislation
+procedures
+credit institutions
+financial institutions
+arrangements
+annex ii
+annex iv
+eu declaration
+assessment
+delegated acts
+title iii
+national competent authority
+implementing acts
+rb
+paragraphs
+(i
+(d
+reasoned request
+corrective actions
+distributors
+importers

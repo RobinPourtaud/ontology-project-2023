@@ -3,3 +3,4 @@ from .learning import *
 from .pdfToCleanText import *
 from .spreadSheetToOwl import *
 from .corpusParse import corpusParsing
+from .TermsExtraction import extractTerms
