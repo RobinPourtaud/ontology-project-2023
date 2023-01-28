@@ -11,7 +11,7 @@ def learning(X, y, kfold=5):
 
     ## Clustering HDBSCAN
     import hdbscan
-    clusterer = hdbscan.HDBSCAN(min_cluster_size=10, min_samples=1)
+    clusterer = hdbscan.HDBSCAN(min_cluster_size=10, min_samples=1, max_cluster_size=50)
     clusterer.fit(X)
     y_pred = clusterer.labels_
 

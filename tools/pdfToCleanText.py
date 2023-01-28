@@ -36,7 +36,13 @@ def pdfToCleanText(pdfPath : str = "rawData/EU.pdf", outputPath : str = "data/co
 
     if returnCorpus:
         # remove \n, \t, \r
-        text = text.replace("\n", "").replace("\t", "").replace("\r", "").replace("\x0c", "").replace("\x0b", "").replace("15698/22 TREE.2.B RB/ek", "")
+        text = text.replace("\n", "").replace("\t", "").replace("\r", "").replace("\x0c", "").replace("\x0b", "")
+        # remove (, ), [, ], {, }, <, >, ", ', :, ;, ., ,, ?, !, -, _, /, \, |, &, @, #, $, %, ^, *, +, =, ~, `
+        text = text.replace("(", "").replace(")", "").replace("[", "").replace("]", "").replace("{", "").replace("}", "").replace("<", "").replace(">", "").replace('"', "").replace("'", "").replace(":", "").replace(";", "").replace(",", "").replace("_", "").replace("/", "").replace("\\", "").replace("|", "").replace("&", "").replace("@", "").replace("#", "").replace("$", "").replace("%", "").replace("^", "").replace("*", "").replace("+", "").replace("=", "").replace("~", "").replace("`", "")
+        # remove numbers 
+        text = "".join([i for i in text if not i.isdigit()])
+        # remove majuscules
+        text = text.lower()
         # remove multiple spaces
         text = " ".join(text.split())
 
@@ -51,9 +57,15 @@ def pdfToCleanText(pdfPath : str = "rawData/EU.pdf", outputPath : str = "data/co
         text = [sentence for sentence in text if len(sentence) > 10]
         # split sentences with spaces
         text = [sentence.split() for sentence in text]
-
-        # keep only NP 
-        
+        # add group of 2 words
+        maxLengthWord = 4
+        for i in range(len(text)):
+            for k in range(2, maxLengthWord + 1):
+                temp = []
+                for j in range(0, len(text[i]) - k + 1):
+                    temp.append(" ".join(text[i][j:j+k]))
+                text.append(temp)
+  
     else:
         text = text.split()
 
