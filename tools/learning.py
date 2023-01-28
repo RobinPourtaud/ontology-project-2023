@@ -1,6 +1,3 @@
-
-
-
 def learning(X, y, kfold=5):
     """Step 6: Clustering and Classification
 
