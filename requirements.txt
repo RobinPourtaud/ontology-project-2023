@@ -1,0 +1,17 @@
+Cython==0.29.33
+gensim==4.3.0
+hdbscan==0.8.29
+matplotlib==3.6.2
+matplotlib-inline==0.1.6
+nbclassic==0.4.8
+nbclient==0.7.2
+nbconvert==7.2.7
+nbformat==5.7.1
+plotly==5.11.0
+scikit-learn==1.2.0
+scipy==1.9.3
+seaborn==0.12.2
+spacy==3.4.4
+spacy-legacy==3.0.11
+spacy-loggers==1.0.4
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.1/en_core_web_sm-3.4.1-py3-none-any.whl
