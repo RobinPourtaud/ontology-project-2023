@@ -1,9 +1,11 @@
-def pdfToCleanText(pdfPath : str = "rawData/EU.pdf", outputPath : str = "data/EU.txt", pages : list = None) -> str:
+def pdfToCleanText(pdfPath : str = "rawData/EU.pdf", outputPath : str = "data/EU.txt", pages : list = None, preProcess : bool = True) -> str:
     """Convert pdf to clean text
 
     Args:
         pdfPath (str, optional): Path to pdf file. Defaults to "rawData/EU.pdf".
         outputPath (str, optional): Path to output file. Defaults to "data/EU.txt".
+        pages (list, optional): List of pages to convert. Defaults to None.
+        preProcess (bool, optional): Preprocess text. Defaults to True. It will return a set of sentences.
 
     Returns:
         str: Clean text from pdf
@@ -32,6 +34,12 @@ def pdfToCleanText(pdfPath : str = "rawData/EU.pdf", outputPath : str = "data/EU
     text = output.getvalue()
     output.close()
 
+    if preProcess:
+        from nltk.tokenize import sent_tokenize
+        text = sent_tokenize(text)
+    else:
+        text = text.split()
+
     with open(outputPath, "w") as f:
         f.write(text)
-    return ' '.join(text.split())
+    return text
