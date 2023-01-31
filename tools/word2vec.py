@@ -10,7 +10,6 @@ def embedding(corpus, outputModel = "data/model.bin", ouputEmbedding = "data/emb
     """
     import pandas as pd
     from gensim.models import Word2Vec
-    from gensim.models.word2vec import LineSentence
     model = Word2Vec(corpus, window=5, min_count=minCount)
     model.save(outputModel)
     model.wv.save_word2vec_format(ouputEmbedding, binary=False)
