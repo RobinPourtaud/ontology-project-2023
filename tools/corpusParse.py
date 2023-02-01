@@ -1,5 +1,3 @@
-
-
 def corpusParsing(min_freq = 2, corpus = "data/corpus.txt", output_file = "data/processedCorpus.txt", freqTerms_output_file = "data/freqTerms.txt", isDep = True):
     """ Create the processed corpus file and the frequent terms file
     Args:
