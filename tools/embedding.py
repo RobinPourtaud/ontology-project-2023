@@ -70,7 +70,7 @@ class Embedding:
         self.key[keyType] = key
         print("Key loaded : self.key[\"{}\"]".format(keyType))
 
-    def computeWord2Vec(self, outputModel = "data/model.bin", ouputEmbedding = "data/embedding.txt"):
+    def computeWord2Vec(self, outputModel = "data/model.bin", ouputEmbedding = "data/W2Vembedding.txt"):
         """Create word2vec model and embedding file
         Args:
             corpus (str): corpus file
@@ -81,11 +81,32 @@ class Embedding:
         from gensim.models import Word2Vec
         assert self.mainCorpus != None, "Please load corpus first with loadCorpus"
         model = Word2Vec(self.mainCorpus, window=5, min_count=1)
+        model.train(self.mainCorpus, total_examples=len(self.mainCorpus), epochs=100)
         model.save(outputModel)
         model.wv.save_word2vec_format(ouputEmbedding, binary=False)
         embedding = pd.DataFrame(model.wv.vectors, index = model.wv.index_to_key)
 
         self.embedding["word2vec"] = embedding
+        print("Word2Vec embedding computed : self.embedding[\"word2vec\"]")
+
+    def computeWord2Vec2(self, outputModel = "data/model.bin", ouputEmbedding = "data/W2V2embedding.txt"):
+        """Create word2vec model and embedding file
+        Args:
+            corpus (str): corpus file
+            outputModel (str): output model file
+            ouputEmbedding (str): output embedding file
+        """
+        import pandas as pd
+        from gensim.models import Word2Vec
+        assert self.mainCorpus != None, "Please load corpus first with loadCorpus"
+        c = [list(self.y.keys()) for i in range(100)]
+        model = Word2Vec(c, window=5, min_count=1)
+        model.train(c, total_examples=len(c), epochs=100)
+        model.save(outputModel)
+        model.wv.save_word2vec_format(ouputEmbedding, binary=False)
+        embedding = pd.DataFrame(model.wv.vectors, index = model.wv.index_to_key)
+
+        self.embedding["word2vec2"] = embedding
         print("Word2Vec embedding computed : self.embedding[\"word2vec\"]")
 
     def computeWord2VecGNews(self, gNewsBin = "data/gNews.bin", outputModel = "model/gNewsDoc2Vec.bin", ouputEmbedding = "data/embeddingGNews.txt"):
@@ -120,11 +141,12 @@ class Embedding:
         self.embedding["word2vecEnWiki"] = embedding
         print("Word2Vec embedding computed : self.embedding[\"word2vecEnWiki\"]")
 
-    def computeGPT(self,  outputEmbedding = "data/GPTembedding.txt"):
+    def computeGPT(self,  outputEmbedding = "data/GPTembedding.txt", onlyWords = None):
         """Create GPT model and embedding file
         
         Args:
             outputEmbedding (str): output embedding file
+            onlyWords (list, optional): list of words to compute embedding. Defaults to None (all)
 
         Returns:
             pandas.DataFrame: embedding for each word in labelabulary
@@ -133,16 +155,29 @@ class Embedding:
         import openai
         assert "OpenAI" in self.key, "OpenAI key is not set, please use loadKey(key, embeddingType = 'OpenAI'): to set it"
         openai.api_key = self.key["OpenAI"]
+        import time
         # create embedding
         embedding = {}
-        for word, _ in self.y.items():
+        if onlyWords == None:
+            w = list(self.y.keys())
+        else:
+            w = onlyWords
+        for word in w:
+            print(word)
             try :
                 response = openai.Embedding.create(input = word, model = "text-embedding-ada-002")
                 embedding[word] = " ".join([str(x) for x in response["data"][0]["embedding"]])
                 with open(outputEmbedding, "a") as f:
                     f.write(word + " " + embedding[word] + "\n")
             except:
-                break
+                print("API pause of 61s, too much requests")
+                time.sleep(61)
+                # yes, not clean
+                response = openai.Embedding.create(input = word, model = "text-embedding-ada-002")
+                embedding[word] = " ".join([str(x) for x in response["data"][0]["embedding"]])
+                with open(outputEmbedding, "a") as f:
+                    f.write(word + " " + embedding[word] + "\n")
+                
         d = pd.DataFrame.from_dict(embedding, orient = "index")
         self.embedding["GPT"] = d[0].str.split(" ", expand = True)
         print("GPT embedding computed : self.embedding[\"GPT\"]")
@@ -213,7 +248,7 @@ class Embedding:
         return fig
 
 
-    def computeSVC(self, embeddingType = "word2vec", kernel = "linear", C = 1.0, gamma = "scale", kfolds = 5):
+    def computeSVC(self, embeddingType = "word2vec", kernel = "linear", C = 1.0, gamma = "scale", testSize = 0.2):
         """Compute SVC model
         
         Args:
@@ -221,30 +256,32 @@ class Embedding:
             kernel (str, optional): kernel. Defaults to "linear".
             C (float, optional): C parameter. Defaults to 1.0.
             gamma (str, optional): gamma parameter. Defaults to "scale".
-            kfolds (int, optional): number of folds for cross validation. Defaults to 5.
+            testSize (float, optional): test size. Defaults to 0.2.
 
         Returns:
             sklearn.svm.SVC: SVC model
         """
         assert embeddingType in self.embedding, "Embedding embeddingType is not computed, please use computeWord2Vec() or computeGPT() to compute it"
         from sklearn.svm import SVC
-        from sklearn.model_selection import cross_val_score
+        #train test split
+        from sklearn.model_selection import train_test_split
+        #from sklearn.model_selection import cross_val_score
         # get embedding
         embedding = self.embedding[embeddingType]
         # compute SVC
         svc = SVC(kernel=kernel, C=C, gamma=gamma)
         yList = [val for _, val in self.y.items()]
-        svc.fit(embedding, yList)
-        # cross validation
-        scores = cross_val_score(svc, embedding, yList, cv=kfolds)
-        print("Cross validation scores : ", scores)
-        print("Mean cross validation score : ", scores.mean())
+        X_train, X_test, y_train, y_test = train_test_split(embedding, yList, test_size=testSize, random_state=42)
+        svc.fit(X_train, y_train)
+        score = svc.score(X_test, y_test)
+        print("SVC score : " + str(score))
         self.model["SVC"] = svc
         self.yPred["SVC"] = svc.predict(embedding)
         print("SVC model computed : self.model[\"SVC\"]")
         print("SVC prediction computed : self.y_pred[\"SVC\"]")
+        return score
         
-    def computeHDBSCAN(self, embeddingType = "word2vec", min_cluster_size = 2, min_samples = None, metric = "euclidean", cluster_selection_method = "eom"):
+    def computeHDBSCAN(self, embeddingType = "word2vec", min_cluster_size = 2, min_samples = None, metric = "euclidean"):
         """Compute HDBSCAN model
         
         Args:
@@ -252,7 +289,6 @@ class Embedding:
             min_cluster_size (int, optional): min cluster size. Defaults to 5.
             min_samples (int, optional): min samples. Defaults to None.
             metric (str, optional): metric. Defaults to "euclidean".
-            cluster_selection_method (str, optional): cluster selection method. Defaults to "eom".
 
         Returns:
             hdbscan.HDBSCAN: HDBSCAN model
@@ -304,4 +340,4 @@ class Embedding:
         """
         assert model in self.model, "Model model is not computed, please use computeSVC() or computeHDBSCAN() to compute it"
         from sklearn.metrics import accuracy_score
-        return accuracy_score(self.y, self.yred[model])
+        return accuracy_score(list(self.y.values()), self.yPred[model])
