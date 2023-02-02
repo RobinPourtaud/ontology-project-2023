@@ -18,3 +18,4 @@ nltk==3.8.1
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.1/en_core_web_sm-3.4.1-py3-none-any.whl
 pdfminer==20191125
 pdfminer.six==20221105
+openai
